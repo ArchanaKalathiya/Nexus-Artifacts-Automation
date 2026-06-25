@@ -42,5 +42,8 @@ if [ -f "$REQUIRED_FILE" ]; then
     fi
   done < "$REQUIRED_FILE"
 else
+
   sort -u "$ALL_URLS"
 fi
+
+
